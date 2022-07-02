@@ -15,9 +15,3 @@ spring:
       max-file-size: 1024MB # 最大上传单个文件大小：默认1M
       max-request-size: 1024MB # 最大置总上传的数据大小 ：默认10M
 
-aliyun:
-  vod:
-    keyid: LTAI5tMhVTR4YCguKhMvmWR2
-    keysecret: 15jL5aIAMZgAi3OHzkj92Bc8PyxCCU
-    templateGroupId: 077200ce19a7536d503412c8757c4ab2 #转码模板组id
-    workflowId: d3b34f013d33b1c7ff06922705debf26 #工作流id

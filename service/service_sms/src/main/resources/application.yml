@@ -23,23 +23,3 @@ spring:
         min-idle: 0     #最小空闲连接，默认0
 
 #腾讯云短信
-tengxun:
-  sms:
-    secretId: AKIDQghSwDF0UhdIgofHchW5NO8bniMiqhGY
-    secretKey: 3pJWT9YfV6QTEjxub2B3ey1nIWT9YfW6
-    #短信应用 ID
-    appid: 1312068389
-    #短信签名内容
-    sign: 463889
-    #短信模板ID
-    templateID: 1411210
-    smsSdkAppId: 1400682889
-
-
-aliyun:
-  sms:
-    regionId: cn-shanghai
-    keyId: LTAI5tMhVTR4YCguKhMvmWR2
-    keySecret: 15jL5aIAMZgAi3OHzkj92Bc8PyxCCU
-    templateCode: SMS_154950909
-    signName: 阿里云短信测试
