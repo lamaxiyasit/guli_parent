@@ -1,0 +1,72 @@
+{
+  "groups": [
+    {
+      "name": "aliyun.sms",
+      "type": "com.atguigu.guli.service.sms.util.SmsProperties",
+      "sourceType": "com.atguigu.guli.service.sms.util.SmsProperties"
+    },
+    {
+      "name": "tengxun.sms",
+      "type": "com.atguigu.guli.service.sms.util.TengXunSmsProperties",
+      "sourceType": "com.atguigu.guli.service.sms.util.TengXunSmsProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aliyun.sms.key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.guli.service.sms.util.SmsProperties"
+    },
+    {
+      "name": "aliyun.sms.key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.guli.service.sms.util.SmsProperties"
+    },
+    {
+      "name": "aliyun.sms.region-id",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.guli.service.sms.util.SmsProperties"
+    },
+    {
+      "name": "aliyun.sms.sign-name",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.guli.service.sms.util.SmsProperties"
+    },
+    {
+      "name": "aliyun.sms.template-code",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.guli.service.sms.util.SmsProperties"
+    },
+    {
+      "name": "tengxun.sms.appid",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.guli.service.sms.util.TengXunSmsProperties"
+    },
+    {
+      "name": "tengxun.sms.secret-id",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.guli.service.sms.util.TengXunSmsProperties"
+    },
+    {
+      "name": "tengxun.sms.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.guli.service.sms.util.TengXunSmsProperties"
+    },
+    {
+      "name": "tengxun.sms.sign",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.guli.service.sms.util.TengXunSmsProperties"
+    },
+    {
+      "name": "tengxun.sms.sms-sdk-app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.guli.service.sms.util.TengXunSmsProperties"
+    },
+    {
+      "name": "tengxun.sms.template-i-d",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.guli.service.sms.util.TengXunSmsProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,20 @@
+server:
+  port: 8120 # 服务端口
+
+spring:
+  profiles:
+    active: dev # 环境设置
+  application:
+    name: service-oss # 服务名
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.31.205:8848
+
+aliyun:
+  oss:
+    endpoint: oss-cn-shanghai.aliyuncs.com
+    keyid: LTAI5tMhVTR4YCguKhMvmWR2
+    keysecret: 15jL5aIAMZgAi3OHzkj92Bc8PyxCCU
+    #bucket可以在控制台创建，也可以使用java代码创建，注意先测试bucket是否已被占用
+    bucketname: guli-file-19970812
