@@ -11,3 +11,10 @@ spring:
       discovery:
         server-addr: 192.168.1.237:8848
 
+aliyun:
+  oss:
+    endpoint: oss-cn-shanghai.aliyuncs.com
+    keyid: LTAI5tMhVTR4YCguKhMvmWR2
+    keysecret: 15jL5aIAMZgAi3OHzkj92Bc8PyxCCU
+    #bucket可以在控制台创建，也可以使用java代码创建，注意先测试bucket是否已被占用
+    bucketname: guli-file-19970812
