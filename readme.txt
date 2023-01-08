@@ -1,1 +1,20 @@
-add readme.txt
+Creating new branch is quick and simple.
+Creating a new branch is quick and simple
+branch dev modify
+add 程佳辉 123 niukai miaoyichun yangjinda123456
+dev
+master123456
+123456789012345678
+123456789012345678
+chengjiahui
+1234567890
+牛凯
+12345
+miaozichun
+123456789
+yangjinda
+git pull 2023-01-08 09:25 dev分支
+dev分支
+dev修改
+pull dev
+>>>>>>> 775f99ce995ef4579eaf67c1f2092f5a2a89d2c9
